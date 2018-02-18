@@ -1,6 +1,7 @@
+- provide(:help, "Help")
 %html
   %head
-    %title Help | Ruby on Rails Tutorial Sample App
+    %title #{yield(:help)} | Ruby on Rails Tutorial Sample App
   %body
     %h1 Sample App
     %p This is the help page <a href="https://railstutorial.jp/">Ruby on Rails Tutorial</a> Sampl application

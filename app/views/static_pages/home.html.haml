@@ -1,6 +1,7 @@
+- provide(:title, "Home")
 %html
   %head
-    %title Home | Ruby on Rails Tutorial Sample App
+    %title #{yield(:title)} | Ruby on Rails Tutorial Sample App
   %body
     %h1 Sample App
     %p This is the home page <a href="https://railstutorial.jp/">Ruby on Rails Tutorial</a> Sampl application

@@ -1,6 +1,7 @@
+- provide(:about, "About")
 %html
   %head
-    %title About | Ruby on Rails Tutorial Sample App
+    %title #{yield(:help)} | Ruby on Rails Tutorial Sample App
   %body
     %h1 Sample App
     %p This is the about page <a href="https://railstutorial.jp/">Ruby on Rails Tutorial</a> Sampl application
