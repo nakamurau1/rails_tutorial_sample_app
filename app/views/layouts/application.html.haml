@@ -1,7 +1,7 @@
 !!!
 %html
   %head
-    %title #{yield(:title)} | Ruby on Rails Tutorial Sample App
+    %title=full_title(yield(:title))
     = render 'layouts/rails_default'
     = render 'layouts/shim'
   %body
