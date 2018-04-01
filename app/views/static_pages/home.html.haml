@@ -3,8 +3,8 @@
 %p This is the home page <a href="https://railstutorial.jp/">Ruby on Rails Tutorial</a> Sampl application
 
 - if logged_in?
-  = render 'logged_in_part'
+  = render 'static_pages/logged_in_part'
 - else
-  = render 'unlogged_in_part'
+  = render 'static_pages/unlogged_in_part'
 
   = link_to image_tag("rails.png", alt: "Rails logo"), "http://rubyonrails.org/"
